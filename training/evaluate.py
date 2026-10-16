@@ -45,11 +45,17 @@ N_EPISODES = 20
 SEED_START = 100   # evaluation seeds 100..119 inclusive — separate from training seed
 
 
-def run_evaluation(model, env, n_episodes: int, seed_start: int):
+def run_evaluation(model, env, n_episodes: int, seed_start: int, deterministic: bool = True):
     """
     Run n_episodes evaluation episodes with the trained model acting
-    greedily (deterministic=True), collecting per-episode stats and the
-    per-step coverage trajectory in a single pass.
+    greedily by default (deterministic=True), collecting per-episode stats
+    and the per-step coverage trajectory in a single pass.
+
+    deterministic: passed straight through to model.predict(). Defaults to
+        True, preserving every existing call site's behaviour unchanged
+        (including the CLI below, which never passes this argument). Added
+        so a diagnostic script can compare deterministic vs stochastic
+        evaluation without altering the default evaluation protocol.
 
     Returns:
         episode_rows     : list of per-episode result dicts
@@ -67,7 +73,7 @@ def run_evaluation(model, env, n_episodes: int, seed_start: int):
         done          = False
 
         while not done:
-            action, _ = model.predict(obs, deterministic=True)
+            action, _ = model.predict(obs, deterministic=deterministic)
             action = int(action)
             action_counts[action] += 1
 

@@ -1,0 +1,13 @@
+agent,world,drift,mean_reward,std_reward,mean_biomass,mean_coverage_pct,extinctions
+fixed_setpoint,hard,drifts,4172.25,1841.25,396.69,88.6,0/20
+fixed_setpoint,easy,drifts,4088.03,1884.18,380.85,88.6,0/20
+fixed_setpoint,easy,nodrifts,4456.32,1589.82,416.08,93.45,0/20
+fixed_setpoint,medium,drifts,4291.89,1895.89,409.02,88.6,0/20
+fixed_setpoint,medium,nodrifts,4681.33,1330.62,446.71,96.35,0/20
+fixed_setpoint,hard,nodrifts,4582.11,1317.97,436.39,96.35,0/20
+random,hard,drifts,177.11,195.27,9.19,39.6,4/20
+random,easy,drifts,216.48,251.16,11.53,45.2,0/20
+random,easy,nodrifts,151.18,158.58,7.4,38.1,0/20
+random,medium,drifts,225.62,173.26,10.77,49.6,0/20
+random,medium,nodrifts,181.38,135.85,8.33,44.95,0/20
+random,hard,nodrifts,186.22,164.9,9.12,43.1,2/20

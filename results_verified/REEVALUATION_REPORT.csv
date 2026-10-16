@@ -1,0 +1,34 @@
+run_id,category,max_abs_total_reward_diff,status
+a2c_hard_multi_objective_drifts_42,original-vs-regenerated,0.0,verified
+a2c_hard_multi_objective_drifts_43,original-vs-regenerated,0.0,verified
+a2c_hard_multi_objective_drifts_44,original-vs-regenerated,0.0,verified
+dqn_hard_biomass_only_drifts_42,original-vs-regenerated,0.0,verified
+dqn_hard_biomass_only_drifts_43,original-vs-regenerated,0.0,verified
+dqn_hard_biomass_only_drifts_44,original-vs-regenerated,0.0,verified
+dqn_hard_efficiency_drifts_42,original-vs-regenerated,0.0003906249985448085,MISMATCH
+dqn_hard_efficiency_drifts_43,original-vs-regenerated,0.00019531249927240424,MISMATCH
+dqn_hard_efficiency_drifts_44,original-vs-regenerated,5.468749986903276e-05,MISMATCH
+dqn_hard_multi_objective_drifts_42,original-vs-regenerated,0.0,verified
+dqn_hard_multi_objective_drifts_43,original-vs-regenerated,0.0,verified
+dqn_hard_multi_objective_drifts_44,original-vs-regenerated,0.0,verified
+dqn_hard_sustainability_drifts_42,original-vs-regenerated,0.0,verified
+dqn_hard_sustainability_drifts_43,original-vs-regenerated,21.940100000000257,MISMATCH
+dqn_hard_sustainability_drifts_44,original-vs-regenerated,0.0,verified
+dqn_hard_turbidity_delta_drifts_42,original-vs-regenerated,0.0,verified
+dqn_hard_turbidity_delta_drifts_43,original-vs-regenerated,0.0,verified
+dqn_hard_turbidity_delta_drifts_44,original-vs-regenerated,0.0,verified
+dqn_hard_turbidity_drifts_42,original-vs-regenerated,0.0,verified
+dqn_hard_turbidity_drifts_43,original-vs-regenerated,1.2000000000000455,MISMATCH
+dqn_hard_turbidity_drifts_44,original-vs-regenerated,0.0,verified
+ppo_hard_multi_objective_drifts_42,original-vs-regenerated,0.0,verified
+ppo_hard_multi_objective_drifts_43,original-vs-regenerated,0.0,verified
+ppo_hard_multi_objective_drifts_44,original-vs-regenerated,0.0,verified
+dqn_easy_multi_objective_{drift}_42 (ambiguous phase3 set),phase3-drift-attribution,drifts=0 nodrifts=4873.31,attributed: attributed to drifts
+dqn_easy_multi_objective_{drift}_43 (ambiguous phase3 set),phase3-drift-attribution,drifts=0 nodrifts=4218.97,attributed: attributed to drifts
+dqn_easy_multi_objective_{drift}_44 (ambiguous phase3 set),phase3-drift-attribution,drifts=0 nodrifts=1650.45,attributed: attributed to drifts
+dqn_medium_multi_objective_{drift}_42 (ambiguous phase3 set),phase3-drift-attribution,drifts=0 nodrifts=806.465,attributed: attributed to drifts
+dqn_medium_multi_objective_{drift}_43 (ambiguous phase3 set),phase3-drift-attribution,drifts=0 nodrifts=2426.76,attributed: attributed to drifts
+dqn_medium_multi_objective_{drift}_44 (ambiguous phase3 set),phase3-drift-attribution,drifts=0 nodrifts=4151.58,attributed: attributed to drifts
+dqn_hard_multi_objective_{drift}_42 (ambiguous phase3 set),phase3-drift-attribution,drifts=3654.84 nodrifts=0,attributed: attributed to nodrifts
+dqn_hard_multi_objective_{drift}_43 (ambiguous phase3 set),phase3-drift-attribution,drifts=3477.4 nodrifts=0,attributed: attributed to nodrifts
+dqn_hard_multi_objective_{drift}_44 (ambiguous phase3 set),phase3-drift-attribution,drifts=1644.53 nodrifts=0,attributed: attributed to nodrifts
