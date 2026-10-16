@@ -1,0 +1,3674 @@
+{
+ "easy|multi_objective|False": [
+  {
+   "total_reward": 5331.23765876351,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.2838134765625
+  },
+  {
+   "total_reward": 5072.592578179224,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.5567321777344
+  },
+  {
+   "total_reward": 90.75378828764,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.564971923828125
+  },
+  {
+   "total_reward": 5299.521571841222,
+   "final_coverage": 1.0,
+   "final_total_biomass": 496.11944580078125
+  },
+  {
+   "total_reward": 5338.664002274258,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.94366455078125
+  },
+  {
+   "total_reward": 5120.195594860895,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.4591064453125
+  },
+  {
+   "total_reward": 4462.688122873294,
+   "final_coverage": 1.0,
+   "final_total_biomass": 417.6426086425781
+  },
+  {
+   "total_reward": 3332.985804115527,
+   "final_coverage": 1.0,
+   "final_total_biomass": 308.9775390625
+  },
+  {
+   "total_reward": 5343.698198089581,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.98260498046875
+  },
+  {
+   "total_reward": 5204.216762213688,
+   "final_coverage": 1.0,
+   "final_total_biomass": 486.72735595703125
+  },
+  {
+   "total_reward": 5123.160993973596,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5010681152344
+  },
+  {
+   "total_reward": 5305.321186734421,
+   "final_coverage": 1.0,
+   "final_total_biomass": 498.2137451171875
+  },
+  {
+   "total_reward": 71.11771544635305,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5333094596862793
+  },
+  {
+   "total_reward": 4973.106833543762,
+   "final_coverage": 1.0,
+   "final_total_biomass": 464.1725769042969
+  },
+  {
+   "total_reward": 5133.486206970792,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5603332519531
+  },
+  {
+   "total_reward": 5154.8186163586215,
+   "final_coverage": 1.0,
+   "final_total_biomass": 481.8346862792969
+  },
+  {
+   "total_reward": 93.74671172380471,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.838250160217285
+  },
+  {
+   "total_reward": 2869.065281733868,
+   "final_coverage": 1.0,
+   "final_total_biomass": 265.9405212402344
+  },
+  {
+   "total_reward": 90.17632743477785,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.86894154548645
+  },
+  {
+   "total_reward": 4547.689857144939,
+   "final_coverage": 1.0,
+   "final_total_biomass": 424.8772277832031
+  }
+ ],
+ "easy|multi_objective|True": [
+  {
+   "total_reward": 5315.5785569339805,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.7470397949219
+  },
+  {
+   "total_reward": 5330.158995519258,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4414.132905884375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.5655822753906
+  },
+  {
+   "total_reward": 5339.761143556813,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9731140136719
+  },
+  {
+   "total_reward": 5339.14346850157,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4380.706768475779,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.682861328125
+  },
+  {
+   "total_reward": 70.48780807971919,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7571253776550293
+  },
+  {
+   "total_reward": 1446.0569324362266,
+   "final_coverage": 1.0,
+   "final_total_biomass": 130.94540405273438
+  },
+  {
+   "total_reward": 5344.586684550026,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5335.6349967974365,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7343444824219
+  },
+  {
+   "total_reward": 5328.28010973511,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.845703125
+  },
+  {
+   "total_reward": 5322.99440726636,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 80.87250082016,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.704958438873291
+  },
+  {
+   "total_reward": 4725.933057360036,
+   "final_coverage": 1.0,
+   "final_total_biomass": 439.2609558105469
+  },
+  {
+   "total_reward": 5137.628845894315,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.7560729980469
+  },
+  {
+   "total_reward": 5337.718550157527,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9798278808594
+  },
+  {
+   "total_reward": 4094.5281436324203,
+   "final_coverage": 1.0,
+   "final_total_biomass": 385.26324462890625
+  },
+  {
+   "total_reward": 3713.617773557296,
+   "final_coverage": 1.0,
+   "final_total_biomass": 343.5199890136719
+  },
+  {
+   "total_reward": 86.27877843737619,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.7891616821289062
+  },
+  {
+   "total_reward": 4319.19276573597,
+   "final_coverage": 1.0,
+   "final_total_biomass": 401.1266784667969
+  }
+ ],
+ "easy|biomass_only|False": [
+  {
+   "total_reward": 4962.548549957274,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.2838134765625
+  },
+  {
+   "total_reward": 4713.531630554198,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.5567321777344
+  },
+  {
+   "total_reward": -7.972055435180674,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.564971923828125
+  },
+  {
+   "total_reward": 4929.392370414733,
+   "final_coverage": 1.0,
+   "final_total_biomass": 496.11944580078125
+  },
+  {
+   "total_reward": 4970.094407405852,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.94366455078125
+  },
+  {
+   "total_reward": 4750.783032684326,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.4591064453125
+  },
+  {
+   "total_reward": 4146.703907356262,
+   "final_coverage": 1.0,
+   "final_total_biomass": 417.6426086425781
+  },
+  {
+   "total_reward": 3060.364073886871,
+   "final_coverage": 1.0,
+   "final_total_biomass": 308.9775390625
+  },
+  {
+   "total_reward": 4971.551427688598,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.98260498046875
+  },
+  {
+   "total_reward": 4836.753886013031,
+   "final_coverage": 1.0,
+   "final_total_biomass": 486.72735595703125
+  },
+  {
+   "total_reward": 4760.338361434937,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5010681152344
+  },
+  {
+   "total_reward": 4948.609147987365,
+   "final_coverage": 1.0,
+   "final_total_biomass": 498.2137451171875
+  },
+  {
+   "total_reward": -15.409101009368909,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5333094596862793
+  },
+  {
+   "total_reward": 4608.287718982696,
+   "final_coverage": 1.0,
+   "final_total_biomass": 464.1725769042969
+  },
+  {
+   "total_reward": 4763.712313232421,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5603332519531
+  },
+  {
+   "total_reward": 4782.92620197296,
+   "final_coverage": 1.0,
+   "final_total_biomass": 481.8346862792969
+  },
+  {
+   "total_reward": -13.301852703094493,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.838250160217285
+  },
+  {
+   "total_reward": 2629.3841098785397,
+   "final_coverage": 1.0,
+   "final_total_biomass": 265.9405212402344
+  },
+  {
+   "total_reward": -12.897642612457288,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.86894154548645
+  },
+  {
+   "total_reward": 4220.621793060302,
+   "final_coverage": 1.0,
+   "final_total_biomass": 424.8772277832031
+  }
+ ],
+ "easy|biomass_only|True": [
+  {
+   "total_reward": 4947.76081314087,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.7470397949219
+  },
+  {
+   "total_reward": 4968.304308776856,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4132.454048080444,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.5655822753906
+  },
+  {
+   "total_reward": 4968.29905254364,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9731140136719
+  },
+  {
+   "total_reward": 4971.29776189804,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4013.7205815124516,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.682861328125
+  },
+  {
+   "total_reward": -13.760925292968762,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7571253776550293
+  },
+  {
+   "total_reward": 1275.162723789215,
+   "final_coverage": 1.0,
+   "final_total_biomass": 130.94540405273438
+  },
+  {
+   "total_reward": 4972.135377883911,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4967.203771266937,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7343444824219
+  },
+  {
+   "total_reward": 4964.114711532593,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.845703125
+  },
+  {
+   "total_reward": 4966.941696815491,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -13.692611217498792,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.704958438873291
+  },
+  {
+   "total_reward": 4359.711508045197,
+   "final_coverage": 1.0,
+   "final_total_biomass": 439.2609558105469
+  },
+  {
+   "total_reward": 4766.13971069336,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.7560729980469
+  },
+  {
+   "total_reward": 4964.767617988587,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9798278808594
+  },
+  {
+   "total_reward": 3821.0980919837957,
+   "final_coverage": 1.0,
+   "final_total_biomass": 385.26324462890625
+  },
+  {
+   "total_reward": 3408.618787612915,
+   "final_coverage": 1.0,
+   "final_total_biomass": 343.5199890136719
+  },
+  {
+   "total_reward": -13.695441246032727,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.7891616821289062
+  },
+  {
+   "total_reward": 3984.0762998962405,
+   "final_coverage": 1.0,
+   "final_total_biomass": 401.1266784667969
+  }
+ ],
+ "easy|turbidity|False": [
+  {
+   "total_reward": 1873.7350000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.2838134765625
+  },
+  {
+   "total_reward": 1817.8700000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.5567321777344
+  },
+  {
+   "total_reward": 560.100000000002,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.564971923828125
+  },
+  {
+   "total_reward": 1876.1750000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 496.11944580078125
+  },
+  {
+   "total_reward": 1867.6200000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.94366455078125
+  },
+  {
+   "total_reward": 1872.1400000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.4591064453125
+  },
+  {
+   "total_reward": 1599.4050000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 417.6426086425781
+  },
+  {
+   "total_reward": 1381.52,
+   "final_coverage": 1.0,
+   "final_total_biomass": 308.9775390625
+  },
+  {
+   "total_reward": 1891.1450000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.98260498046875
+  },
+  {
+   "total_reward": 1860.015,
+   "final_coverage": 1.0,
+   "final_total_biomass": 486.72735595703125
+  },
+  {
+   "total_reward": 1837.6650000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5010681152344
+  },
+  {
+   "total_reward": 1813.6550000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 498.2137451171875
+  },
+  {
+   "total_reward": 506.60000000000036,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5333094596862793
+  },
+  {
+   "total_reward": 1849.5850000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 464.1725769042969
+  },
+  {
+   "total_reward": 1872.8300000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5603332519531
+  },
+  {
+   "total_reward": 1887.88,
+   "final_coverage": 1.0,
+   "final_total_biomass": 481.8346862792969
+  },
+  {
+   "total_reward": 547.8999999999999,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.838250160217285
+  },
+  {
+   "total_reward": 1234.2,
+   "final_coverage": 1.0,
+   "final_total_biomass": 265.9405212402344
+  },
+  {
+   "total_reward": 527.800000000002,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.86894154548645
+  },
+  {
+   "total_reward": 1661.14,
+   "final_coverage": 1.0,
+   "final_total_biomass": 424.8772277832031
+  }
+ ],
+ "easy|turbidity|True": [
+  {
+   "total_reward": 1871.8250000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.7470397949219
+  },
+  {
+   "total_reward": 1825.6400000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1439.0100000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.5655822753906
+  },
+  {
+   "total_reward": 1875.8600000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9731140136719
+  },
+  {
+   "total_reward": 1866.0400000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1863.4900000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.682861328125
+  },
+  {
+   "total_reward": 428.10000000000167,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7571253776550293
+  },
+  {
+   "total_reward": 863.4800000000008,
+   "final_coverage": 1.0,
+   "final_total_biomass": 130.94540405273438
+  },
+  {
+   "total_reward": 1892.3500000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1862.8050000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7343444824219
+  },
+  {
+   "total_reward": 1836.7300000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.845703125
+  },
+  {
+   "total_reward": 1813.1900000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 506.60000000000036,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.704958438873291
+  },
+  {
+   "total_reward": 1847.0550000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 439.2609558105469
+  },
+  {
+   "total_reward": 1872.8650000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.7560729980469
+  },
+  {
+   "total_reward": 1888.7750000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9798278808594
+  },
+  {
+   "total_reward": 1391.0750000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 385.26324462890625
+  },
+  {
+   "total_reward": 1555.02,
+   "final_coverage": 1.0,
+   "final_total_biomass": 343.5199890136719
+  },
+  {
+   "total_reward": 527.800000000002,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.7891616821289062
+  },
+  {
+   "total_reward": 1692.6200000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 401.1266784667969
+  }
+ ],
+ "easy|turbidity_delta|False": [
+  {
+   "total_reward": 9.035000000000009,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.2838134765625
+  },
+  {
+   "total_reward": 8.770000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.5567321777344
+  },
+  {
+   "total_reward": -5.100000000000006,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.564971923828125
+  },
+  {
+   "total_reward": 8.975000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 496.11944580078125
+  },
+  {
+   "total_reward": 8.920000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.94366455078125
+  },
+  {
+   "total_reward": 9.140000000000015,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.4591064453125
+  },
+  {
+   "total_reward": 7.805000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 417.6426086425781
+  },
+  {
+   "total_reward": 6.820000000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 308.9775390625
+  },
+  {
+   "total_reward": 9.045000000000012,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.98260498046875
+  },
+  {
+   "total_reward": 9.015000000000008,
+   "final_coverage": 1.0,
+   "final_total_biomass": 486.72735595703125
+  },
+  {
+   "total_reward": 8.965000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5010681152344
+  },
+  {
+   "total_reward": 8.855000000000013,
+   "final_coverage": 1.0,
+   "final_total_biomass": 498.2137451171875
+  },
+  {
+   "total_reward": -5.400000000000006,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5333094596862793
+  },
+  {
+   "total_reward": 8.98500000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 464.1725769042969
+  },
+  {
+   "total_reward": 9.030000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5603332519531
+  },
+  {
+   "total_reward": 9.080000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 481.8346862792969
+  },
+  {
+   "total_reward": -5.100000000000005,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.838250160217285
+  },
+  {
+   "total_reward": 6.200000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 265.9405212402344
+  },
+  {
+   "total_reward": -5.300000000000005,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.86894154548645
+  },
+  {
+   "total_reward": 8.140000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 424.8772277832031
+  }
+ ],
+ "easy|turbidity_delta|True": [
+  {
+   "total_reward": 9.325000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.7470397949219
+  },
+  {
+   "total_reward": 8.94000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 7.210000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.5655822753906
+  },
+  {
+   "total_reward": 9.160000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9731140136719
+  },
+  {
+   "total_reward": 9.24000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 9.490000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.682861328125
+  },
+  {
+   "total_reward": -5.800000000000005,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7571253776550293
+  },
+  {
+   "total_reward": 4.379999999999996,
+   "final_coverage": 1.0,
+   "final_total_biomass": 130.94540405273438
+  },
+  {
+   "total_reward": 9.250000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 9.205000000000009,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7343444824219
+  },
+  {
+   "total_reward": 9.130000000000008,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.845703125
+  },
+  {
+   "total_reward": 9.090000000000009,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -5.400000000000006,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.704958438873291
+  },
+  {
+   "total_reward": 9.255000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 439.2609558105469
+  },
+  {
+   "total_reward": 9.26500000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.7560729980469
+  },
+  {
+   "total_reward": 9.27500000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9798278808594
+  },
+  {
+   "total_reward": 7.075000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 385.26324462890625
+  },
+  {
+   "total_reward": 7.9200000000000035,
+   "final_coverage": 1.0,
+   "final_total_biomass": 343.5199890136719
+  },
+  {
+   "total_reward": -5.300000000000005,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.7891616821289062
+  },
+  {
+   "total_reward": 8.620000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 401.1266784667969
+  }
+ ],
+ "easy|efficiency|False": [
+  {
+   "total_reward": 5722.55810546875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.2838134765625
+  },
+  {
+   "total_reward": 2985.880859375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.5567321777344
+  },
+  {
+   "total_reward": 22.4378662109375,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.564971923828125
+  },
+  {
+   "total_reward": 5323.3125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 496.11944580078125
+  },
+  {
+   "total_reward": 4781.05615234375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.94366455078125
+  },
+  {
+   "total_reward": 6693.12646484375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.4591064453125
+  },
+  {
+   "total_reward": 934.7232666015625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 417.6426086425781
+  },
+  {
+   "total_reward": 360.62786865234375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 308.9775390625
+  },
+  {
+   "total_reward": 6028.1708984375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.98260498046875
+  },
+  {
+   "total_reward": 4424.05078125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 486.72735595703125
+  },
+  {
+   "total_reward": 3883.662109375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5010681152344
+  },
+  {
+   "total_reward": 3683.649169921875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 498.2137451171875
+  },
+  {
+   "total_reward": 18.291929244995117,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5333094596862793
+  },
+  {
+   "total_reward": 3796.479248046875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 464.1725769042969
+  },
+  {
+   "total_reward": 4716.619140625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5603332519531
+  },
+  {
+   "total_reward": 5916.55712890625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 481.8346862792969
+  },
+  {
+   "total_reward": 19.450576782226562,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.838250160217285
+  },
+  {
+   "total_reward": 213.58364868164062,
+   "final_coverage": 1.0,
+   "final_total_biomass": 265.9405212402344
+  },
+  {
+   "total_reward": 19.176013946533203,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.86894154548645
+  },
+  {
+   "total_reward": 1172.2720947265625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 424.8772277832031
+  }
+ ],
+ "easy|efficiency|True": [
+  {
+   "total_reward": 6569.40966796875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.7470397949219
+  },
+  {
+   "total_reward": 4020.523193359375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 524.35205078125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.5655822753906
+  },
+  {
+   "total_reward": 6542.16455078125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9731140136719
+  },
+  {
+   "total_reward": 6314.88427734375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6889.04248046875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.682861328125
+  },
+  {
+   "total_reward": 18.887609481811523,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7571253776550293
+  },
+  {
+   "total_reward": 50.472434997558594,
+   "final_coverage": 1.0,
+   "final_total_biomass": 130.94540405273438
+  },
+  {
+   "total_reward": 7504.50537109375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5493.05908203125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7343444824219
+  },
+  {
+   "total_reward": 5015.361328125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.845703125
+  },
+  {
+   "total_reward": 4296.51220703125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 18.500600814819336,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.704958438873291
+  },
+  {
+   "total_reward": 4273.63134765625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 439.2609558105469
+  },
+  {
+   "total_reward": 5549.990234375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.7560729980469
+  },
+  {
+   "total_reward": 8208.5771484375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9798278808594
+  },
+  {
+   "total_reward": 442.7452392578125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 385.26324462890625
+  },
+  {
+   "total_reward": 670.8935546875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 343.5199890136719
+  },
+  {
+   "total_reward": 19.143474578857422,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.7891616821289062
+  },
+  {
+   "total_reward": 1422.261474609375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 401.1266784667969
+  }
+ ],
+ "easy|sustainability|False": [
+  {
+   "total_reward": 5318.70765876351,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.2838134765625
+  },
+  {
+   "total_reward": 5054.502578179224,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.5567321777344
+  },
+  {
+   "total_reward": -52.43621171236032,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.564971923828125
+  },
+  {
+   "total_reward": 5287.241571841221,
+   "final_coverage": 1.0,
+   "final_total_biomass": 496.11944580078125
+  },
+  {
+   "total_reward": 5325.534002274258,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.94366455078125
+  },
+  {
+   "total_reward": 5107.495594860894,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.4591064453125
+  },
+  {
+   "total_reward": 4422.8481228732935,
+   "final_coverage": 1.0,
+   "final_total_biomass": 417.6426086425781
+  },
+  {
+   "total_reward": 3271.4558041155274,
+   "final_coverage": 1.0,
+   "final_total_biomass": 308.9775390625
+  },
+  {
+   "total_reward": 5332.908198089582,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.98260498046875
+  },
+  {
+   "total_reward": 5190.316762213688,
+   "final_coverage": 1.0,
+   "final_total_biomass": 486.72735595703125
+  },
+  {
+   "total_reward": 5107.030993973596,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5010681152344
+  },
+  {
+   "total_reward": 5286.801186734422,
+   "final_coverage": 1.0,
+   "final_total_biomass": 498.2137451171875
+  },
+  {
+   "total_reward": -77.42228455364702,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5333094596862793
+  },
+  {
+   "total_reward": 4958.166833543763,
+   "final_coverage": 1.0,
+   "final_total_biomass": 464.1725769042969
+  },
+  {
+   "total_reward": 5120.8662069707925,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.5603332519531
+  },
+  {
+   "total_reward": 5143.698616358621,
+   "final_coverage": 1.0,
+   "final_total_biomass": 481.8346862792969
+  },
+  {
+   "total_reward": -50.6632882761954,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.838250160217285
+  },
+  {
+   "total_reward": 2792.865281733868,
+   "final_coverage": 1.0,
+   "final_total_biomass": 265.9405212402344
+  },
+  {
+   "total_reward": -56.24367256522179,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.86894154548645
+  },
+  {
+   "total_reward": 4513.989857144939,
+   "final_coverage": 1.0,
+   "final_total_biomass": 424.8772277832031
+  }
+ ],
+ "easy|sustainability|True": [
+  {
+   "total_reward": 5302.8285569339805,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.7470397949219
+  },
+  {
+   "total_reward": 5312.828995519258,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4358.312905884375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.5655822753906
+  },
+  {
+   "total_reward": 5327.431143556813,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9731140136719
+  },
+  {
+   "total_reward": 5325.82346850157,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4367.106768475779,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.682861328125
+  },
+  {
+   "total_reward": -85.90219192028052,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7571253776550293
+  },
+  {
+   "total_reward": 1332.9669324362267,
+   "final_coverage": 1.0,
+   "final_total_biomass": 130.94540405273438
+  },
+  {
+   "total_reward": 5333.896684550026,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5321.994996797436,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7343444824219
+  },
+  {
+   "total_reward": 5312.0401097351105,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.845703125
+  },
+  {
+   "total_reward": 5304.40440726636,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -67.66749917984022,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.704958438873291
+  },
+  {
+   "total_reward": 4710.713057360037,
+   "final_coverage": 1.0,
+   "final_total_biomass": 439.2609558105469
+  },
+  {
+   "total_reward": 5124.988845894316,
+   "final_coverage": 1.0,
+   "final_total_biomass": 479.7560729980469
+  },
+  {
+   "total_reward": 5326.668550157527,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9798278808594
+  },
+  {
+   "total_reward": 4033.92814363242,
+   "final_coverage": 1.0,
+   "final_total_biomass": 385.26324462890625
+  },
+  {
+   "total_reward": 3669.3277735572965,
+   "final_coverage": 1.0,
+   "final_total_biomass": 343.5199890136719
+  },
+  {
+   "total_reward": -60.14122156262383,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.7891616821289062
+  },
+  {
+   "total_reward": 4288.592765735971,
+   "final_coverage": 1.0,
+   "final_total_biomass": 401.1266784667969
+  }
+ ],
+ "medium|multi_objective|False": [
+  {
+   "total_reward": 5237.808647339599,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5230.323866494441,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9026794433594
+  },
+  {
+   "total_reward": 92.1942749059389,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 5238.684584334817,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5238.390556364128,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5226.226429202293,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5032.097139360427,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.5889892578125
+  },
+  {
+   "total_reward": 4240.304912678922,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.0647888183594
+  },
+  {
+   "total_reward": 5241.2522550740405,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5238.510420667819,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5230.864622582815,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5225.701692458214,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 71.21601748287686,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 5231.223696974649,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6673889160156
+  },
+  {
+   "total_reward": 5237.402734617615,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7930908203125
+  },
+  {
+   "total_reward": 5235.242310511202,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 95.95629111409218,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 3957.4789906528517,
+   "final_coverage": 1.0,
+   "final_total_biomass": 378.5348205566406
+  },
+  {
+   "total_reward": 90.7269763028618,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 5100.350995448687,
+   "final_coverage": 1.0,
+   "final_total_biomass": 488.4839172363281
+  }
+ ],
+ "medium|multi_objective|True": [
+  {
+   "total_reward": 5237.861357430157,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5230.992054268486,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5093.208007469091,
+   "final_coverage": 1.0,
+   "final_total_biomass": 490.70294189453125
+  },
+  {
+   "total_reward": 5239.620797650634,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5237.894288466758,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4972.953271036996,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.430908203125
+  },
+  {
+   "total_reward": 70.9118263137337,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 2365.124260027755,
+   "final_coverage": 1.0,
+   "final_total_biomass": 223.45376586914062
+  },
+  {
+   "total_reward": 5239.6220668645865,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5238.661306972278,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5230.737215581742,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5224.0291283455945,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 81.25571752905854,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 5164.0600826766395,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.7021179199219
+  },
+  {
+   "total_reward": 5240.377407290622,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9231262207031
+  },
+  {
+   "total_reward": 5236.2690268310635,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5083.190326194785,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.8404846191406
+  },
+  {
+   "total_reward": 4373.291059778015,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.48614501953125
+  },
+  {
+   "total_reward": 86.68201631665247,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 4925.820072151918,
+   "final_coverage": 1.0,
+   "final_total_biomass": 469.98358154296875
+  }
+ ],
+ "medium|biomass_only|False": [
+  {
+   "total_reward": 4965.050415191653,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4962.7611032104505,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9026794433594
+  },
+  {
+   "total_reward": -6.471456050872813,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 4963.577912406923,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4966.007761898043,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4951.881968231203,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4792.707713508605,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.5889892578125
+  },
+  {
+   "total_reward": 4019.016571445462,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.0647888183594
+  },
+  {
+   "total_reward": 4966.975377883915,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4965.15032644272,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4961.017680282594,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4961.841696815494,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -15.310686588287366,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 4959.195839099885,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6673889160156
+  },
+  {
+   "total_reward": 4961.869888916016,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7930908203125
+  },
+  {
+   "total_reward": 4960.2493391799935,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -12.791598796844493,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 3753.6271030426,
+   "final_coverage": 1.0,
+   "final_total_biomass": 378.5348205566406
+  },
+  {
+   "total_reward": -12.346507072448743,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 4853.008687591552,
+   "final_coverage": 1.0,
+   "final_total_biomass": 488.4839172363281
+  }
+ ],
+ "medium|biomass_only|True": [
+  {
+   "total_reward": 4965.740415191654,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4963.254308776861,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4870.677644271851,
+   "final_coverage": 1.0,
+   "final_total_biomass": 490.70294189453125
+  },
+  {
+   "total_reward": 4963.837912406925,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4966.227761898046,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4697.59105026245,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.430908203125
+  },
+  {
+   "total_reward": -13.33733415603639,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 2200.2863419532778,
+   "final_coverage": 1.0,
+   "final_total_biomass": 223.45376586914062
+  },
+  {
+   "total_reward": 4967.235377883917,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4965.250326442721,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4960.857680282596,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4961.901696815496,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -13.308948040008557,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 4890.303129138946,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.7021179199219
+  },
+  {
+   "total_reward": 4963.610242919924,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9231262207031
+  },
+  {
+   "total_reward": 4960.169339179997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4863.830491886139,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.8404846191406
+  },
+  {
+   "total_reward": 4135.7103476715065,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.48614501953125
+  },
+  {
+   "total_reward": -13.292714118957532,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 4669.335330657958,
+   "final_coverage": 1.0,
+   "final_total_biomass": 469.98358154296875
+  }
+ ],
+ "medium|turbidity|False": [
+  {
+   "total_reward": 1878.9049999999984,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1828.454999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9026794433594
+  },
+  {
+   "total_reward": 561.900000000002,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 1885.3649999999989,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1872.8949999999986,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1878.7849999999987,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1618.3749999999993,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.5889892578125
+  },
+  {
+   "total_reward": 1471.2099999999996,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.0647888183594
+  },
+  {
+   "total_reward": 1893.3699999999988,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1868.4499999999985,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1845.7099999999987,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1820.6399999999987,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 506.60000000000036,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 1856.8649999999989,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6673889160156
+  },
+  {
+   "total_reward": 1881.044999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7930908203125
+  },
+  {
+   "total_reward": 1895.1149999999984,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 556.4000000000017,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 1364.8499999999997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 378.5348205566406
+  },
+  {
+   "total_reward": 527.800000000002,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 1676.1999999999991,
+   "final_coverage": 1.0,
+   "final_total_biomass": 488.4839172363281
+  }
+ ],
+ "medium|turbidity|True": [
+  {
+   "total_reward": 1878.1499999999987,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1830.214999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1508.4349999999993,
+   "final_coverage": 1.0,
+   "final_total_biomass": 490.70294189453125
+  },
+  {
+   "total_reward": 1885.294999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1874.0049999999985,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1874.784999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.430908203125
+  },
+  {
+   "total_reward": 428.10000000000167,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 1037.9000000000008,
+   "final_coverage": 1.0,
+   "final_total_biomass": 223.45376586914062
+  },
+  {
+   "total_reward": 1894.5999999999988,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1869.1999999999987,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1844.0299999999988,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1818.0699999999988,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 506.60000000000036,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 1852.9449999999993,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.7021179199219
+  },
+  {
+   "total_reward": 1880.964999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9231262207031
+  },
+  {
+   "total_reward": 1895.3749999999986,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1470.0549999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.8404846191406
+  },
+  {
+   "total_reward": 1609.9349999999993,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.48614501953125
+  },
+  {
+   "total_reward": 527.800000000002,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 1727.4649999999992,
+   "final_coverage": 1.0,
+   "final_total_biomass": 469.98358154296875
+  }
+ ],
+ "medium|turbidity_delta|False": [
+  {
+   "total_reward": 6.705,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.655000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9026794433594
+  },
+  {
+   "total_reward": -5.100000000000006,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 6.664999999999997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.594999999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.985000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.075000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.5889892578125
+  },
+  {
+   "total_reward": 5.710000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.0647888183594
+  },
+  {
+   "total_reward": 6.670000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.849999999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.810000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.540000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -5.400000000000006,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 6.965000000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6673889160156
+  },
+  {
+   "total_reward": 6.945000000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7930908203125
+  },
+  {
+   "total_reward": 6.915,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -5.100000000000005,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 5.35,
+   "final_coverage": 1.0,
+   "final_total_biomass": 378.5348205566406
+  },
+  {
+   "total_reward": -5.300000000000005,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 6.300000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 488.4839172363281
+  }
+ ],
+ "medium|turbidity_delta|True": [
+  {
+   "total_reward": 7.049999999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.415000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5.634999999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 490.70294189453125
+  },
+  {
+   "total_reward": 6.795,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.705000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 7.685,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.430908203125
+  },
+  {
+   "total_reward": -5.800000000000005,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 4.399999999999996,
+   "final_coverage": 1.0,
+   "final_total_biomass": 223.45376586914062
+  },
+  {
+   "total_reward": 6.800000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.900000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.7299999999999995,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.569999999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -5.400000000000006,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 7.3450000000000015,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.7021179199219
+  },
+  {
+   "total_reward": 7.165000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9231262207031
+  },
+  {
+   "total_reward": 6.875000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5.554999999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.8404846191406
+  },
+  {
+   "total_reward": 6.635000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.48614501953125
+  },
+  {
+   "total_reward": -5.300000000000005,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 6.964999999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 469.98358154296875
+  }
+ ],
+ "medium|efficiency|False": [
+  {
+   "total_reward": 1758.9908447265625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1415.111083984375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9026794433594
+  },
+  {
+   "total_reward": 22.830387115478516,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 1743.58837890625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1698.3564453125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1904.2349853515625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 721.7879028320312,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.5889892578125
+  },
+  {
+   "total_reward": 439.7752380371094,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.0647888183594
+  },
+  {
+   "total_reward": 1842.849365234375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1685.24365234375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1544.32373046875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1446.462158203125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 18.309951782226562,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 1564.753173828125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6673889160156
+  },
+  {
+   "total_reward": 1714.505859375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7930908203125
+  },
+  {
+   "total_reward": 1917.913330078125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 19.555614471435547,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 316.72418212890625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 378.5348205566406
+  },
+  {
+   "total_reward": 19.242528915405273,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 824.5292358398438,
+   "final_coverage": 1.0,
+   "final_total_biomass": 488.4839172363281
+  }
+ ],
+ "medium|efficiency|True": [
+  {
+   "total_reward": 1804.9835205078125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1466.6202392578125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 535.5878295898438,
+   "final_coverage": 1.0,
+   "final_total_biomass": 490.70294189453125
+  },
+  {
+   "total_reward": 1801.360107421875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1744.9090576171875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1907.68212890625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.430908203125
+  },
+  {
+   "total_reward": 18.938337326049805,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 100.35049438476562,
+   "final_coverage": 1.0,
+   "final_total_biomass": 223.45376586914062
+  },
+  {
+   "total_reward": 1912.295654296875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1748.8211669921875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1620.1322021484375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1470.8643798828125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 18.553678512573242,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 1607.456298828125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.7021179199219
+  },
+  {
+   "total_reward": 1775.0399169921875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9231262207031
+  },
+  {
+   "total_reward": 2007.2398681640625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 499.3495788574219,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.8404846191406
+  },
+  {
+   "total_reward": 636.144287109375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.48614501953125
+  },
+  {
+   "total_reward": 19.203907012939453,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 970.99072265625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 469.98358154296875
+  }
+ ],
+ "medium|sustainability|False": [
+  {
+   "total_reward": 5128.6851403468045,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5119.5516418710295,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9026794433594
+  },
+  {
+   "total_reward": -51.23263959404106,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 5130.290522343576,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5128.520037462855,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5117.716920213178,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4913.8123616745515,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.5889892578125
+  },
+  {
+   "total_reward": 4118.350248615796,
+   "final_coverage": 1.0,
+   "final_total_biomass": 405.0647888183594
+  },
+  {
+   "total_reward": 5132.192933071771,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5129.512753470532,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5120.777821692874,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5113.528641851791,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -77.3239825171232,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 5122.595962581312,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6673889160156
+  },
+  {
+   "total_reward": 5129.694653289971,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.7930908203125
+  },
+  {
+   "total_reward": 5126.25722412295,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -47.60370888590808,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 3831.5050600999475,
+   "final_coverage": 1.0,
+   "final_total_biomass": 378.5348205566406
+  },
+  {
+   "total_reward": -55.69302369713784,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 4985.27971851679,
+   "final_coverage": 1.0,
+   "final_total_biomass": 488.4839172363281
+  }
+ ],
+ "medium|sustainability|True": [
+  {
+   "total_reward": 5128.730015081644,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5119.204378097198,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4971.334085609148,
+   "final_coverage": 1.0,
+   "final_total_biomass": 490.70294189453125
+  },
+  {
+   "total_reward": 5130.543077374345,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5127.4748417977235,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4866.22384665062,
+   "final_coverage": 1.0,
+   "final_total_biomass": 474.430908203125
+  },
+  {
+   "total_reward": -85.478173686266,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 2228.2986793966056,
+   "final_coverage": 1.0,
+   "final_total_biomass": 223.45376586914062
+  },
+  {
+   "total_reward": 5128.520111276351,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5129.1107781977935,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5119.619976217571,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5110.885856804349,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": -67.28428247094169,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 5055.829202433695,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.7021179199219
+  },
+  {
+   "total_reward": 5132.373565555195,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.9231262207031
+  },
+  {
+   "total_reward": 5127.564016634776,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4960.068825614492,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.8404846191406
+  },
+  {
+   "total_reward": 4256.082838873829,
+   "final_coverage": 1.0,
+   "final_total_biomass": 416.48614501953125
+  },
+  {
+   "total_reward": -59.73798368334755,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 4813.098918233915,
+   "final_coverage": 1.0,
+   "final_total_biomass": 469.98358154296875
+  }
+ ],
+ "hard|multi_objective|False": [
+  {
+   "total_reward": 5238.253477563211,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.47454833984375
+  },
+  {
+   "total_reward": 5167.813292026061,
+   "final_coverage": 1.0,
+   "final_total_biomass": 493.18206787109375
+  },
+  {
+   "total_reward": 92.1942749059389,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 5236.966963168104,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.28778076171875
+  },
+  {
+   "total_reward": 5239.276721893313,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.5251159667969
+  },
+  {
+   "total_reward": 5155.637721268265,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.5250244140625
+  },
+  {
+   "total_reward": 4577.860350712055,
+   "final_coverage": 1.0,
+   "final_total_biomass": 436.7766418457031
+  },
+  {
+   "total_reward": 3963.2681738659953,
+   "final_coverage": 1.0,
+   "final_total_biomass": 377.16925048828125
+  },
+  {
+   "total_reward": 5246.346820630679,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5096.405545030816,
+   "final_coverage": 1.0,
+   "final_total_biomass": 485.2867126464844
+  },
+  {
+   "total_reward": 5059.433883430974,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.3854064941406
+  },
+  {
+   "total_reward": 5187.171314187462,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.55572509765625
+  },
+  {
+   "total_reward": 71.21601748287686,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 4929.6609907813145,
+   "final_coverage": 1.0,
+   "final_total_biomass": 468.99932861328125
+  },
+  {
+   "total_reward": 5137.5078090852685,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.3583068847656
+  },
+  {
+   "total_reward": 5155.469979369365,
+   "final_coverage": 1.0,
+   "final_total_biomass": 491.43731689453125
+  },
+  {
+   "total_reward": 95.95629111409218,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 3493.8729244497326,
+   "final_coverage": 1.0,
+   "final_total_biomass": 332.0259704589844
+  },
+  {
+   "total_reward": 90.7269763028618,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 4742.845756263588,
+   "final_coverage": 1.0,
+   "final_total_biomass": 452.37921142578125
+  }
+ ],
+ "hard|multi_objective|True": [
+  {
+   "total_reward": 5198.618829841544,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.52545166015625
+  },
+  {
+   "total_reward": 5236.253444387676,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4906.750012887626,
+   "final_coverage": 1.0,
+   "final_total_biomass": 471.7483825683594
+  },
+  {
+   "total_reward": 5244.124478249362,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5235.007521032281,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.0037841796875
+  },
+  {
+   "total_reward": 4433.013991890207,
+   "final_coverage": 1.0,
+   "final_total_biomass": 420.12127685546875
+  },
+  {
+   "total_reward": 70.9118263137337,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 2376.611919940461,
+   "final_coverage": 1.0,
+   "final_total_biomass": 224.576904296875
+  },
+  {
+   "total_reward": 5246.402784386187,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5222.062495418559,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.76806640625
+  },
+  {
+   "total_reward": 5233.853713941773,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.804443359375
+  },
+  {
+   "total_reward": 5224.622447091677,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.4770202636719
+  },
+  {
+   "total_reward": 81.25571752905854,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 4620.503481542989,
+   "final_coverage": 1.0,
+   "final_total_biomass": 437.89739990234375
+  },
+  {
+   "total_reward": 5117.698761986175,
+   "final_coverage": 1.0,
+   "final_total_biomass": 487.1834411621094
+  },
+  {
+   "total_reward": 5238.085478644635,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6694641113281
+  },
+  {
+   "total_reward": 4543.844183275127,
+   "final_coverage": 1.0,
+   "final_total_biomass": 435.5162658691406
+  },
+  {
+   "total_reward": 3733.4665396049386,
+   "final_coverage": 1.0,
+   "final_total_biomass": 352.2048034667969
+  },
+  {
+   "total_reward": 86.68201631665247,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 4449.823443252934,
+   "final_coverage": 1.0,
+   "final_total_biomass": 422.0995178222656
+  }
+ ],
+ "hard|biomass_only|False": [
+  {
+   "total_reward": 4961.6158985900865,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.47454833984375
+  },
+  {
+   "total_reward": 4897.01498748779,
+   "final_coverage": 1.0,
+   "final_total_biomass": 493.18206787109375
+  },
+  {
+   "total_reward": -6.471456050872813,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 4958.1857200241075,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.28778076171875
+  },
+  {
+   "total_reward": 4963.078921566007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.5251159667969
+  },
+  {
+   "total_reward": 4878.762212371825,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.5250244140625
+  },
+  {
+   "total_reward": 4335.804239387511,
+   "final_coverage": 1.0,
+   "final_total_biomass": 436.7766418457031
+  },
+  {
+   "total_reward": 3740.871188144683,
+   "final_coverage": 1.0,
+   "final_total_biomass": 377.16925048828125
+  },
+  {
+   "total_reward": 4968.69537788391,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4819.7774529075605,
+   "final_coverage": 1.0,
+   "final_total_biomass": 485.2867126464844
+  },
+  {
+   "total_reward": 4786.4317452239975,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.3854064941406
+  },
+  {
+   "total_reward": 4919.2389477920515,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.55572509765625
+  },
+  {
+   "total_reward": -15.310686588287366,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 4654.165236072539,
+   "final_coverage": 1.0,
+   "final_total_biomass": 468.99932861328125
+  },
+  {
+   "total_reward": 4858.962049560546,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.3583068847656
+  },
+  {
+   "total_reward": 4876.332508125303,
+   "final_coverage": 1.0,
+   "final_total_biomass": 491.43731689453125
+  },
+  {
+   "total_reward": -12.791598796844493,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 3289.168602066039,
+   "final_coverage": 1.0,
+   "final_total_biomass": 332.0259704589844
+  },
+  {
+   "total_reward": -12.346507072448743,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 4493.121629486083,
+   "final_coverage": 1.0,
+   "final_total_biomass": 452.37921142578125
+  }
+ ],
+ "hard|biomass_only|True": [
+  {
+   "total_reward": 4922.854931793212,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.52545166015625
+  },
+  {
+   "total_reward": 4964.894308776854,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4682.102051010131,
+   "final_coverage": 1.0,
+   "final_total_biomass": 471.7483825683594
+  },
+  {
+   "total_reward": 4965.537912406921,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4958.4256036949155,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.0037841796875
+  },
+  {
+   "total_reward": 4155.914736785888,
+   "final_coverage": 1.0,
+   "final_total_biomass": 420.12127685546875
+  },
+  {
+   "total_reward": -13.33733415603639,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 2211.6077262306217,
+   "final_coverage": 1.0,
+   "final_total_biomass": 224.576904296875
+  },
+  {
+   "total_reward": 4969.055377883911,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4944.800990505218,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.76806640625
+  },
+  {
+   "total_reward": 4960.5521138763415,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.804443359375
+  },
+  {
+   "total_reward": 4958.78189945221,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.4770202636719
+  },
+  {
+   "total_reward": -13.308948040008557,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 4343.735948963164,
+   "final_coverage": 1.0,
+   "final_total_biomass": 437.89739990234375
+  },
+  {
+   "total_reward": 4837.753392333984,
+   "final_coverage": 1.0,
+   "final_total_biomass": 487.1834411621094
+  },
+  {
+   "total_reward": 4958.5939802932735,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6694641113281
+  },
+  {
+   "total_reward": 4321.758304386138,
+   "final_coverage": 1.0,
+   "final_total_biomass": 435.5162658691406
+  },
+  {
+   "total_reward": 3493.9569321441645,
+   "final_coverage": 1.0,
+   "final_total_biomass": 352.2048034667969
+  },
+  {
+   "total_reward": -13.292714118957532,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 4191.584693450927,
+   "final_coverage": 1.0,
+   "final_total_biomass": 422.0995178222656
+  }
+ ],
+ "hard|turbidity|False": [
+  {
+   "total_reward": 1879.8149999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.47454833984375
+  },
+  {
+   "total_reward": 1829.185,
+   "final_coverage": 1.0,
+   "final_total_biomass": 493.18206787109375
+  },
+  {
+   "total_reward": 561.900000000002,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 1886.23,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.28778076171875
+  },
+  {
+   "total_reward": 1873.8049999999996,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.5251159667969
+  },
+  {
+   "total_reward": 1879.6,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.5250244140625
+  },
+  {
+   "total_reward": 1618.885,
+   "final_coverage": 1.0,
+   "final_total_biomass": 436.7766418457031
+  },
+  {
+   "total_reward": 1471.3149999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 377.16925048828125
+  },
+  {
+   "total_reward": 1894.23,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1869.3299999999997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 485.2867126464844
+  },
+  {
+   "total_reward": 1846.4899999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.3854064941406
+  },
+  {
+   "total_reward": 1821.5599999999997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.55572509765625
+  },
+  {
+   "total_reward": 506.60000000000036,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 1857.6899999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 468.99932861328125
+  },
+  {
+   "total_reward": 1881.7649999999999,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.3583068847656
+  },
+  {
+   "total_reward": 1895.9699999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 491.43731689453125
+  },
+  {
+   "total_reward": 556.4000000000017,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 1365.265,
+   "final_coverage": 1.0,
+   "final_total_biomass": 332.0259704589844
+  },
+  {
+   "total_reward": 527.800000000002,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 1676.7799999999997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 452.37921142578125
+  }
+ ],
+ "hard|turbidity|True": [
+  {
+   "total_reward": 1879.0800000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.52545166015625
+  },
+  {
+   "total_reward": 1831.0350000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1509.22,
+   "final_coverage": 1.0,
+   "final_total_biomass": 471.7483825683594
+  },
+  {
+   "total_reward": 1886.1449999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1875.085,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.0037841796875
+  },
+  {
+   "total_reward": 1875.495,
+   "final_coverage": 1.0,
+   "final_total_biomass": 420.12127685546875
+  },
+  {
+   "total_reward": 428.10000000000167,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 1037.9450000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 224.576904296875
+  },
+  {
+   "total_reward": 1895.51,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1870.135,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.76806640625
+  },
+  {
+   "total_reward": 1844.855,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.804443359375
+  },
+  {
+   "total_reward": 1819.1249999999998,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.4770202636719
+  },
+  {
+   "total_reward": 506.60000000000036,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 1853.685,
+   "final_coverage": 1.0,
+   "final_total_biomass": 437.89739990234375
+  },
+  {
+   "total_reward": 1881.7350000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 487.1834411621094
+  },
+  {
+   "total_reward": 1896.24,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6694641113281
+  },
+  {
+   "total_reward": 1470.6400000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 435.5162658691406
+  },
+  {
+   "total_reward": 1610.465,
+   "final_coverage": 1.0,
+   "final_total_biomass": 352.2048034667969
+  },
+  {
+   "total_reward": 527.800000000002,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 1728.01,
+   "final_coverage": 1.0,
+   "final_total_biomass": 422.0995178222656
+  }
+ ],
+ "hard|turbidity_delta|False": [
+  {
+   "total_reward": 7.615000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.47454833984375
+  },
+  {
+   "total_reward": 7.385000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 493.18206787109375
+  },
+  {
+   "total_reward": -5.100000000000006,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 7.530000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.28778076171875
+  },
+  {
+   "total_reward": 7.505000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.5251159667969
+  },
+  {
+   "total_reward": 7.800000000000009,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.5250244140625
+  },
+  {
+   "total_reward": 6.685000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 436.7766418457031
+  },
+  {
+   "total_reward": 6.115000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 377.16925048828125
+  },
+  {
+   "total_reward": 7.530000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 7.730000000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 485.2867126464844
+  },
+  {
+   "total_reward": 7.5900000000000025,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.3854064941406
+  },
+  {
+   "total_reward": 7.4600000000000035,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.55572509765625
+  },
+  {
+   "total_reward": -5.400000000000006,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 7.790000000000007,
+   "final_coverage": 1.0,
+   "final_total_biomass": 468.99932861328125
+  },
+  {
+   "total_reward": 7.665000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.3583068847656
+  },
+  {
+   "total_reward": 7.770000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 491.43731689453125
+  },
+  {
+   "total_reward": -5.100000000000005,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 5.665000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 332.0259704589844
+  },
+  {
+   "total_reward": -5.300000000000005,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 6.8800000000000034,
+   "final_coverage": 1.0,
+   "final_total_biomass": 452.37921142578125
+  }
+ ],
+ "hard|turbidity_delta|True": [
+  {
+   "total_reward": 7.980000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.52545166015625
+  },
+  {
+   "total_reward": 7.235000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 6.12,
+   "final_coverage": 1.0,
+   "final_total_biomass": 471.7483825683594
+  },
+  {
+   "total_reward": 7.645000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 7.785000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.0037841796875
+  },
+  {
+   "total_reward": 8.395000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 420.12127685546875
+  },
+  {
+   "total_reward": -5.800000000000005,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 4.444999999999997,
+   "final_coverage": 1.0,
+   "final_total_biomass": 224.576904296875
+  },
+  {
+   "total_reward": 7.710000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 7.835000000000008,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.76806640625
+  },
+  {
+   "total_reward": 7.555000000000003,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.804443359375
+  },
+  {
+   "total_reward": 7.6250000000000036,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.4770202636719
+  },
+  {
+   "total_reward": -5.400000000000006,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 8.085000000000004,
+   "final_coverage": 1.0,
+   "final_total_biomass": 437.89739990234375
+  },
+  {
+   "total_reward": 7.935000000000005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 487.1834411621094
+  },
+  {
+   "total_reward": 7.740000000000006,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6694641113281
+  },
+  {
+   "total_reward": 6.14,
+   "final_coverage": 1.0,
+   "final_total_biomass": 435.5162658691406
+  },
+  {
+   "total_reward": 7.165000000000002,
+   "final_coverage": 1.0,
+   "final_total_biomass": 352.2048034667969
+  },
+  {
+   "total_reward": -5.300000000000005,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 7.510000000000001,
+   "final_coverage": 1.0,
+   "final_total_biomass": 422.0995178222656
+  }
+ ],
+ "hard|efficiency|False": [
+  {
+   "total_reward": 1937.8431396484375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.47454833984375
+  },
+  {
+   "total_reward": 1566.104736328125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 493.18206787109375
+  },
+  {
+   "total_reward": 22.830387115478516,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 1903.7564697265625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.28778076171875
+  },
+  {
+   "total_reward": 1865.9622802734375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.5251159667969
+  },
+  {
+   "total_reward": 2077.064453125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.5250244140625
+  },
+  {
+   "total_reward": 727.9722290039062,
+   "final_coverage": 1.0,
+   "final_total_biomass": 436.7766418457031
+  },
+  {
+   "total_reward": 440.1507568359375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 377.16925048828125
+  },
+  {
+   "total_reward": 2030.4139404296875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1800.2843017578125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 485.2867126464844
+  },
+  {
+   "total_reward": 1643.196533203125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.3854064941406
+  },
+  {
+   "total_reward": 1552.7835693359375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.55572509765625
+  },
+  {
+   "total_reward": 18.309951782226562,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 1699.295654296875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 468.99932861328125
+  },
+  {
+   "total_reward": 1863.7734375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.3583068847656
+  },
+  {
+   "total_reward": 2094.10986328125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 491.43731689453125
+  },
+  {
+   "total_reward": 19.555614471435547,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 306.2256164550781,
+   "final_coverage": 1.0,
+   "final_total_biomass": 332.0259704589844
+  },
+  {
+   "total_reward": 19.242528915405273,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 850.8136596679688,
+   "final_coverage": 1.0,
+   "final_total_biomass": 452.37921142578125
+  }
+ ],
+ "hard|efficiency|True": [
+  {
+   "total_reward": 2035.3779296875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.52545166015625
+  },
+  {
+   "total_reward": 1653.4375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 543.5474853515625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 471.7483825683594
+  },
+  {
+   "total_reward": 2005.0712890625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 2005.841796875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.0037841796875
+  },
+  {
+   "total_reward": 2117.814453125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 420.12127685546875
+  },
+  {
+   "total_reward": 18.938337326049805,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 104.0549545288086,
+   "final_coverage": 1.0,
+   "final_total_biomass": 224.576904296875
+  },
+  {
+   "total_reward": 2160.994384765625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 1962.64111328125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.76806640625
+  },
+  {
+   "total_reward": 1764.2528076171875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.804443359375
+  },
+  {
+   "total_reward": 1644.3963623046875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.4770202636719
+  },
+  {
+   "total_reward": 18.553678512573242,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 1753.35888671875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 437.89739990234375
+  },
+  {
+   "total_reward": 1979.564697265625,
+   "final_coverage": 1.0,
+   "final_total_biomass": 487.1834411621094
+  },
+  {
+   "total_reward": 2234.747802734375,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6694641113281
+  },
+  {
+   "total_reward": 484.5606689453125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 435.5162658691406
+  },
+  {
+   "total_reward": 620.2821044921875,
+   "final_coverage": 1.0,
+   "final_total_biomass": 352.2048034667969
+  },
+  {
+   "total_reward": 19.203907012939453,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 1007.577392578125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 422.0995178222656
+  }
+ ],
+ "hard|sustainability|False": [
+  {
+   "total_reward": 5133.013924804838,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.47454833984375
+  },
+  {
+   "total_reward": 5060.229119356561,
+   "final_coverage": 1.0,
+   "final_total_biomass": 493.18206787109375
+  },
+  {
+   "total_reward": -51.23263959404106,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 3.715031862258911
+  },
+  {
+   "total_reward": 5132.315233456544,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.28778076171875
+  },
+  {
+   "total_reward": 5133.183417601125,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.5251159667969
+  },
+  {
+   "total_reward": 5049.625604978271,
+   "final_coverage": 1.0,
+   "final_total_biomass": 492.5250244140625
+  },
+  {
+   "total_reward": 4462.134074617862,
+   "final_coverage": 1.0,
+   "final_total_biomass": 436.7766418457031
+  },
+  {
+   "total_reward": 3842.405594465188,
+   "final_coverage": 1.0,
+   "final_total_biomass": 377.16925048828125
+  },
+  {
+   "total_reward": 5140.7015991114695,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4990.759357430919,
+   "final_coverage": 1.0,
+   "final_total_biomass": 485.2867126464844
+  },
+  {
+   "total_reward": 4952.4942836469845,
+   "final_coverage": 1.0,
+   "final_total_biomass": 482.3854064941406
+  },
+  {
+   "total_reward": 5078.9478141202935,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.55572509765625
+  },
+  {
+   "total_reward": -77.3239825171232,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.5431509017944336
+  },
+  {
+   "total_reward": 4824.479926711588,
+   "final_coverage": 1.0,
+   "final_total_biomass": 468.99932861328125
+  },
+  {
+   "total_reward": 5032.749690120272,
+   "final_coverage": 1.0,
+   "final_total_biomass": 489.3583068847656
+  },
+  {
+   "total_reward": 5050.617644207538,
+   "final_coverage": 1.0,
+   "final_total_biomass": 491.43731689453125
+  },
+  {
+   "total_reward": -47.60370888590808,
+   "final_coverage": 0.28999999165534973,
+   "final_total_biomass": 2.889275550842285
+  },
+  {
+   "total_reward": 3368.808754634844,
+   "final_coverage": 1.0,
+   "final_total_biomass": 332.0259704589844
+  },
+  {
+   "total_reward": -55.69302369713784,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.9240550994873047
+  },
+  {
+   "total_reward": 4630.120564015824,
+   "final_coverage": 1.0,
+   "final_total_biomass": 452.37921142578125
+  }
+ ],
+ "hard|sustainability|True": [
+  {
+   "total_reward": 5092.9755991529155,
+   "final_coverage": 1.0,
+   "final_total_biomass": 495.52545166015625
+  },
+  {
+   "total_reward": 5128.0624279810345,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 4786.882094302005,
+   "final_coverage": 1.0,
+   "final_total_biomass": 471.7483825683594
+  },
+  {
+   "total_reward": 5137.866882018087,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5129.407601318732,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.0037841796875
+  },
+  {
+   "total_reward": 4327.968009008667,
+   "final_coverage": 1.0,
+   "final_total_biomass": 420.12127685546875
+  },
+  {
+   "total_reward": -85.478173686266,
+   "final_coverage": 0.2199999988079071,
+   "final_total_biomass": 2.7994844913482666
+  },
+  {
+   "total_reward": 2239.9360441679723,
+   "final_coverage": 1.0,
+   "final_total_biomass": 224.576904296875
+  },
+  {
+   "total_reward": 5140.158089002803,
+   "final_coverage": 1.0,
+   "final_total_biomass": 500.0
+  },
+  {
+   "total_reward": 5116.315706623936,
+   "final_coverage": 1.0,
+   "final_total_biomass": 497.76806640625
+  },
+  {
+   "total_reward": 5126.060776490983,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.804443359375
+  },
+  {
+   "total_reward": 5115.0873163766555,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.4770202636719
+  },
+  {
+   "total_reward": -67.28428247094169,
+   "final_coverage": 0.25999999046325684,
+   "final_total_biomass": 2.7433247566223145
+  },
+  {
+   "total_reward": 4515.247396023138,
+   "final_coverage": 1.0,
+   "final_total_biomass": 437.89739990234375
+  },
+  {
+   "total_reward": 5012.784605899427,
+   "final_coverage": 1.0,
+   "final_total_biomass": 487.1834411621094
+  },
+  {
+   "total_reward": 5132.7302183562,
+   "final_coverage": 1.0,
+   "final_total_biomass": 499.6694641113281
+  },
+  {
+   "total_reward": 4423.409949685377,
+   "final_coverage": 1.0,
+   "final_total_biomass": 435.5162658691406
+  },
+  {
+   "total_reward": 3618.0644614332546,
+   "final_coverage": 1.0,
+   "final_total_biomass": 352.2048034667969
+  },
+  {
+   "total_reward": -59.73798368334755,
+   "final_coverage": 0.27000001072883606,
+   "final_total_biomass": 2.829434394836426
+  },
+  {
+   "total_reward": 4338.879629657666,
+   "final_coverage": 1.0,
+   "final_total_biomass": 422.0995178222656
+  }
+ ]
+}
