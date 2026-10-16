@@ -1,0 +1,6 @@
+algo=dqn
+world=hard
+reward_mode=turbidity
+seed=43
+timesteps=500000
+no_drifts=False

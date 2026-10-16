@@ -1,0 +1,3 @@
+stat,total_reward,final_coverage,final_biomass,extinct,type_b_fraction,mean_toxin,steps,action_0_count,action_1_count,action_2_count,action_3_count,action_4_count,action_5_count,action_6_count,action_7_count,action_8_count,action_9_count,action_10_count
+mean,3835.1643,1.0,363.1759,0.0,0.999,0.2418,200.0,0.0,4.1,3.3,20.6,0.0,128.25,0.05,26.45,0.05,0.0,17.2
+std,1018.2208,0.0,99.3371,0.0,0.003,0.0562,0.0,0.0,7.8416,7.7013,5.3889,0.0,13.0379,0.2179,9.7287,0.2179,0.0,4.2849

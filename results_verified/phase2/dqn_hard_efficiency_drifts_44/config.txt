@@ -1,0 +1,6 @@
+algo=dqn
+world=hard
+reward_mode=efficiency
+seed=44
+timesteps=500000
+no_drifts=False

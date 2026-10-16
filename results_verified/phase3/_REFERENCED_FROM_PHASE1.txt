@@ -1,0 +1,13 @@
+Phase 3's "hard, with drifts" configuration is NOT a separate training run.
+It is the Phase 1 DQN run (multi_objective, hard world, drifts), reused by
+reference per the experimental design (phase3_report.docx section 2:
+"Hard with drifts taken directly from Phase 1").
+
+Its files are NOT duplicated into this folder. See instead:
+    results_verified/phase1/dqn_hard_multi_objective_drifts_42/
+    results_verified/phase1/dqn_hard_multi_objective_drifts_43/
+    results_verified/phase1/dqn_hard_multi_objective_drifts_44/
+
+This keeps results_verified/ consistent with the actual Colab data
+(there is only one "dqn_seedNN_models.zip" set, trained once) and avoids
+ever having two divergent copies of the same model/results on disk.
