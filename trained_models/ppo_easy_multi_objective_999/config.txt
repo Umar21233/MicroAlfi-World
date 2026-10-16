@@ -1,0 +1,6 @@
+algo=ppo
+world=easy
+reward_mode=multi_objective
+seed=999
+timesteps=25000
+no_drifts=False

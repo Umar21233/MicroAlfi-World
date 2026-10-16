@@ -1,0 +1,6 @@
+algo=dqn
+world=easy
+reward_mode=multi_objective
+seed=999
+timesteps=5000
+no_drifts=True
