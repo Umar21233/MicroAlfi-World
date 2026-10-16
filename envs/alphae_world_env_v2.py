@@ -96,6 +96,12 @@ HUMIDITY_OPTIMAL  = 0.55
 
 # -- Drifting global variable parameters --------------------------------------
 
+# NOTE (intentional, kept for reproducibility): temperature is observed
+# (global_state[1] / obs[1]) and drifts every step, but it has NO effect on
+# growth anywhere in _ca_step, and no action controls it. It exists purely
+# as a non-actionable, non-influential background signal. Do not "fix" this
+# without creating a new env version -- it would change every existing
+# result for every reward mode.
 TEMP_DRIFT_TARGET = 0.30
 TEMP_DRIFT_RATE   = 0.005
 
@@ -130,6 +136,13 @@ PHOTOINHIBITION_DAMAGE = -0.04
 
 TOXIN_PRODUCTION_A = 0.012
 TOXIN_PRODUCTION_B = 0.004
+# NOTE (intentional, kept for reproducibility): TOXIN_DECAY only lowers the
+# *reported global* toxin value (global_state[5] / obs[5]), which is
+# recomputed from mean local toxin minus this constant every step in
+# _global_dynamics. It does NOT decay self.local_toxin itself. Per-cell
+# local_toxin only ever decreases via action 7 (toxin filter); otherwise it
+# is monotonically non-decreasing (growth, photoinhibition and spreading all
+# only add to it). Do not "fix" this asymmetry without a new env version.
 TOXIN_DECAY        = 0.005
 TOXIN_FILTER_BOOST = 0.06
 TOXIN_SLOW_THRESH  = 0.70
@@ -281,10 +294,10 @@ class AlphaeWorldEnvV2(gym.Env):
         """
         Reset to a fresh episode. Colony seeded in centre 4x4 region.
 
-        Starting biomass range is 0.20 to 0.50 per cell (previously 0.10
-        to 0.40). The higher minimum prevents newly seeded cells from being
-        dangerously close to the 0.05 alive threshold before they have had
-        a chance to grow.
+        Starting biomass range is 0.15 to 0.35 per cell. This minimum is
+        above the 0.05 alive threshold and the 0.10 spread minimum, so
+        seeded cells are never dangerously close to dying or spreading
+        before they have had a chance to grow (see the seeding block below).
         """
         super().reset(seed=seed)
         rng = self.np_random
@@ -338,7 +351,9 @@ class AlphaeWorldEnvV2(gym.Env):
         # 3. Passive global dynamics (skipped if no_drifts=True except radiation)
         self._global_dynamics()
 
-        # 4. Clip all values to valid bounds
+        # 4. Clip all values to valid bounds.
+        # Biomass is capped at 5.0 per cell -- with a 10x10 = 100-cell grid,
+        # that is a hard ceiling of 500.0 on total biomass (env.biomass.sum()).
         self.global_state = np.clip(self.global_state, 0.0, 1.0)
         self.biomass      = np.clip(self.biomass, 0.0, 5.0)
         self.local_toxin  = np.clip(self.local_toxin, 0.0, 1.0)
@@ -422,6 +437,12 @@ class AlphaeWorldEnvV2(gym.Env):
         elif self.reward_mode == "turbidity":
             return colony_coverage * 10.0 - action_cost * 0.5
         elif self.reward_mode == "turbidity_delta":
+            # NOTE (intentional, kept for reproducibility): prev_coverage is
+            # reset to 0.0 in reset(), so on step 1 of every episode this
+            # reduces to (colony_coverage - 0) * 10 - cost*0.5, i.e. exactly
+            # the plain "turbidity" reward for that one step only. From step
+            # 2 onward it is a genuine coverage delta. Do not "fix" this
+            # first-step artefact without a new env version.
             return (colony_coverage - self.prev_coverage) * 10.0 - action_cost * 0.5
         elif self.reward_mode == "efficiency":
             if self.total_action_cost > 0:
@@ -495,7 +516,11 @@ class AlphaeWorldEnvV2(gym.Env):
         arrays so every cell sees the same state before any updates.
         """
         g = self.global_state
-        light, temp, co2, nutrients, ph, toxin, radiation, humidity = g
+        # temp and the scalar global toxin value are unpacked but unused here:
+        # growth multipliers never depend on temperature (see TEMP_DRIFT_RATE
+        # note above), and toxin logic in this function reads self.local_toxin
+        # / self.world_config["toxin"] directly, not this scalar.
+        light, _temp, co2, nutrients, ph, _toxin, radiation, humidity = g
 
         # -- Precompute global growth multipliers ----------------------------
         light_mult    = self._bell_curve_arr(light, LIGHT_SWEET_LOW, LIGHT_SWEET_HIGH, 1.4)
@@ -600,7 +625,7 @@ class AlphaeWorldEnvV2(gym.Env):
                 type_new[can_mutate & (rng_vals < MUTATION_PROB)] = TYPE_B
 
         # -- Rule 2: Neighbour spreading -------------------------------------
-        # Only cells with biomass > SPREAD_MIN_BIOMASS (0.15) spread.
+        # Only cells with biomass > SPREAD_MIN_BIOMASS (0.10) spread.
         # This threshold is deliberately above the alive threshold (0.05)
         # so spreading cells cannot drop below alive threshold and kill themselves.
         if self.world_config["spreading"]:

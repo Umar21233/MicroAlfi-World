@@ -31,11 +31,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 import numpy as np
 from envs.alphae_world_env_v2 import (
-    AlphaeWorldEnvV2, DEFAULT_WORLD_CONFIG,
+    AlphaeWorldEnvV2,
     LIGHT_SWEET_LOW, LIGHT_SWEET_HIGH,
     CO2_SWEET_LOW,   CO2_SWEET_HIGH,
     PH_OPTIMAL, HUMIDITY_OPTIMAL,
-    TOXIN_SLOW_THRESH,
 )
 from agents.random_agent_v2 import WORLD_PRESETS
 

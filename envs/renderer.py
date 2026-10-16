@@ -1,5 +1,5 @@
 """
-renderer.py — Pygame Renderer for AlgaeWorldEnv v2
+renderer.py — Pygame Renderer for AlphaeWorldEnv v2
 ====================================================
 Clean, professional renderer for the CA grid world.
 Prioritises clarity and readability over visual effects.
