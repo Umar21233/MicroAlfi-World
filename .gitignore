@@ -2,3 +2,7 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Raw read-only Colab downloads -- never committed, integrity tracked via
+# data_manifest.json (sha256 of every file) instead.
+Colab training results/
