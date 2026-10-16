@@ -37,6 +37,7 @@ def run_random_v2(
     render:      bool = False,
     reward_mode: str  = "multi_objective",
     world_preset: str = "hard",
+    no_drifts:   bool = False,
 ):
     """
     Run a random agent on AlphaeWorldEnvV2.
@@ -52,12 +53,16 @@ def run_random_v2(
         render       : open pygame window if True
         reward_mode  : reward function to use
         world_preset : "easy", "medium", or "hard"
+        no_drifts    : if True, disable passive global drifts (except
+                       radiation), matching run_fixed_setpoint_v2 so both
+                       baselines can be run under either drift condition
     """
     world_config = WORLD_PRESETS[world_preset]
     env = AlphaeWorldEnvV2(
         max_steps=max_steps,
         reward_mode=reward_mode,
         world_config=world_config,
+        no_drifts=no_drifts,
     )
     results = []
 
@@ -131,10 +136,12 @@ if __name__ == "__main__":
                                  "turbidity","turbidity_delta","efficiency","sustainability"])
     parser.add_argument("--world",        type=str, default="hard",
                         choices=["easy","medium","hard"])
+    parser.add_argument("--no_drifts",    action="store_true")
     args = parser.parse_args()
     run_random_v2(
         n_episodes=args.episodes,
         render=args.render,
         reward_mode=args.reward_mode,
         world_preset=args.world,
+        no_drifts=args.no_drifts,
     )
