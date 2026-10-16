@@ -1,0 +1,5 @@
+# Extra dependencies needed only to run the test suite under tests/.
+# Not required for training, evaluation, or plotting -- see requirements.txt
+# for those.
+-r requirements.txt
+pytest==9.1.1
