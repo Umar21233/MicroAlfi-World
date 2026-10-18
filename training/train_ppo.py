@@ -35,6 +35,7 @@ from stable_baselines3.common.callbacks import BaseCallback
 from envs.alphae_world_env_v2 import AlphaeWorldEnvV2
 from agents.random_agent_v2 import WORLD_PRESETS
 from scripts.run_naming import build_run_name
+from training.hyperparameters import TUNED
 
 ALGO_NAME = "ppo"
 LOG_FREQ  = 10_000   # timesteps between learning-curve log points
@@ -98,7 +99,17 @@ def main():
                              "instead of the old 4-part name (default: off, "
                              "so existing behaviour/filenames are unchanged). "
                              "See scripts/run_naming.py.")
+    parser.add_argument("--tuned", action="store_true",
+                        help="Use the tuned hyperparameters confirmed from "
+                             "the Colab-trained models (training/hyperparameters.py) "
+                             "instead of this script's own CLI defaults. "
+                             "Default: off, so existing behaviour is unchanged.")
     args = parser.parse_args()
+
+    if args.tuned:
+        tuned = TUNED[ALGO_NAME]
+        args.learning_rate = tuned["learning_rate"]
+        args.n_steps = tuned["n_steps"]
 
     run_name = build_run_name(
         ALGO_NAME, args.world, args.reward_mode, args.seed,
