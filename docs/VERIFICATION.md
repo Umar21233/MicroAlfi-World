@@ -206,8 +206,10 @@ the paper's discussion section, not a correction.
    `results_verified/` (via `EVAL_SUMMARY_ALL.csv`,
    `baselines/BASELINES_SUMMARY.csv`, and each run's own
    `learning_curve.csv`/`coverage_trajectory.csv`) — no hardcoded
-   result arrays remain. Figures write to `plots_verified/` (`plots/` is
-   untouched). Figure 3 now has three clearly-labelled panels —
+   result arrays remain. Figures write to `plots_verified/` (`plots/` was
+   untouched at the time -- since archived to `archive/plots/` during the
+   final-cleanup pass; see the project README). Figure 3 now has three
+   clearly-labelled panels —
    **Training Reward**, **Evaluation Reward**, and **Final Biomass** —
    instead of mixing training and eval reward under one ambiguous axis.
    The random baseline is fixed to its correct (positive) value.
