@@ -6,3 +6,7 @@ __pycache__/
 # Raw read-only Colab downloads -- never committed, integrity tracked via
 # data_manifest.json (sha256 of every file) instead.
 Colab training results/
+
+# Archived large binaries -- stops new large files landing in archive/ from
+# bloating the repo; already-tracked archived files are unaffected.
+archive/**/*.zip
