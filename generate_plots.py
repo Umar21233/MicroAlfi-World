@@ -6,7 +6,7 @@ Run from the Internship folder with venv activated:
 Every plotted quantity is computed here, at run time, from
 results_verified/ (learning_curve.csv, eval.csv -> EVAL_SUMMARY_ALL.csv,
 coverage_trajectory.csv, baselines/BASELINES_SUMMARY.csv). There are no
-hardcoded result numbers in this file. See VERIFICATION.md for how
+hardcoded result numbers in this file. See docs/VERIFICATION.md for how
 results_verified/ was built and verified against the raw Colab zips, and
 results_verified/PLOT_NUMBERS_OLD_VS_VERIFIED.csv for a comparison against
 the old hand-maintained values this script used to contain.
@@ -107,7 +107,7 @@ def baseline_lookup(agent, world, drift):
 # OLD-vs-VERIFIED comparison table (Step 6.1 deliverable)
 # =============================================================================
 # The values below are exactly what the pre-verification generate_plots.py
-# hardcoded (see git history / AUDIT.md Step 2f) -- kept here ONLY as a fixed
+# hardcoded (see git history / docs/AUDIT.md Step 2f) -- kept here ONLY as a fixed
 # reference for this one comparison table, never used for plotting.
 _OLD = {
     ("fig2", "dqn", "reward"): 5221, ("fig2", "dqn", "biomass"): 497, ("fig2", "dqn", "coverage"): 100,

@@ -5,7 +5,7 @@ OLD naming (still used by training/*.py and training/evaluate.py's default
 behaviour, and by every file in results/ and the raw Colab zips):
     {algo}_{world}_{reward_mode}_{seed}
 This has no drift-condition component, so a with-drifts and a no-drifts run
-of the same algo/world/reward_mode/seed collide (see AUDIT.md finding #12).
+of the same algo/world/reward_mode/seed collide (see docs/AUDIT.md finding #12).
 
 NEW naming (for FUTURE runs only -- see training/train_dqn.py etc. for the
 opt-in flag that builds this instead of the old 4-part name):
