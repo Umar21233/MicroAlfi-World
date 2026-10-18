@@ -34,6 +34,7 @@ from stable_baselines3.common.callbacks import BaseCallback
 
 from envs.alphae_world_env_v2 import AlphaeWorldEnvV2
 from agents.random_agent_v2 import WORLD_PRESETS
+from scripts.run_naming import build_run_name
 
 ALGO_NAME = "ppo"
 LOG_FREQ  = 10_000   # timesteps between learning-curve log points
@@ -91,9 +92,19 @@ def main():
     parser.add_argument("--no_drifts", action="store_true")
     parser.add_argument("--learning_rate", type=float, default=0.0003)
     parser.add_argument("--n_steps", type=int, default=2048)
+    parser.add_argument("--new_naming", action="store_true",
+                        help="Use the collision-free 5-part run name "
+                             "{algo}_{world}_{reward_mode}_{drift}_{seed} "
+                             "instead of the old 4-part name (default: off, "
+                             "so existing behaviour/filenames are unchanged). "
+                             "See scripts/run_naming.py.")
     args = parser.parse_args()
 
-    run_name    = f"{ALGO_NAME}_{args.world}_{args.reward_mode}_{args.seed}"
+    run_name = build_run_name(
+        ALGO_NAME, args.world, args.reward_mode, args.seed,
+        no_drifts=args.no_drifts,
+        style="new" if args.new_naming else "old",
+    )
     model_dir   = os.path.join(PROJECT_ROOT, "trained_models", run_name)
     results_dir = os.path.join(PROJECT_ROOT, "results")
     os.makedirs(model_dir, exist_ok=True)

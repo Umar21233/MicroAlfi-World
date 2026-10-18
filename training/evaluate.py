@@ -38,6 +38,7 @@ from stable_baselines3 import DQN, PPO, A2C
 
 from envs.alphae_world_env_v2 import AlphaeWorldEnvV2
 from agents.random_agent_v2 import WORLD_PRESETS
+from scripts.run_naming import build_run_name
 
 ALGO_CLASSES = {"dqn": DQN, "ppo": PPO, "a2c": A2C}
 
@@ -172,12 +173,22 @@ def main():
                         help="the TRAINING seed — used only for output file naming, "
                              "evaluation itself always uses seeds 100-119")
     parser.add_argument("--no_drifts", action="store_true")
+    parser.add_argument("--new_naming", action="store_true",
+                        help="Use the collision-free 5-part run name "
+                             "{algo}_{world}_{reward_mode}_{drift}_{seed} "
+                             "instead of the old 4-part name (default: off, "
+                             "so existing behaviour/filenames are unchanged). "
+                             "See scripts/run_naming.py.")
     args = parser.parse_args()
 
     results_dir = os.path.join(PROJECT_ROOT, "results")
     os.makedirs(results_dir, exist_ok=True)
 
-    run_name = f"{args.algo}_{args.world}_{args.reward_mode}_{args.seed}"
+    run_name = build_run_name(
+        args.algo, args.world, args.reward_mode, args.seed,
+        no_drifts=args.no_drifts,
+        style="new" if args.new_naming else "old",
+    )
 
     env = AlphaeWorldEnvV2(
         world_config=WORLD_PRESETS[args.world],
