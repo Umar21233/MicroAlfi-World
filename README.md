@@ -8,13 +8,72 @@ behaviour (spreading, mutation, toxin buildup, collapse) **emerges** from
 local cell-to-cell rules the agent never touches directly.
 
 This repository continues a completed internship project into a final-year
-project. The internship's experiments are **done** — their results live in
-`results/` and `trained_models/`, and a paper is being written from them.
+project. The internship's experiments are **done**.
 **Nothing in `envs/alphae_world_env_v2.py` may change behaviourally**: every
 constant, CA rule, reward formula, and reset/seed sequence must keep
 producing exactly the numbers already on disk. See `AUDIT.md` for the full
 audit of this codebase and a list of proposed (not yet implemented) v3
 improvements that would require a new, separate env file.
+
+## Which results are trustworthy?
+
+Use **`results_verified/`**, not `results/`. `results/` is the internship's
+original local output folder; its run-name convention
+(`{algo}_{world}_{reward_mode}_{seed}`) has no drift-condition component, so
+a with-drifts and a no-drifts run of the same algo/world/reward_mode/seed
+silently overwrote each other's files (AUDIT.md finding #12). See
+`results/README_LEGACY.txt`.
+
+`results_verified/` was rebuilt from scratch directly from the raw,
+read-only Colab training downloads (`Colab training results/`, SHA-256
+tracked in `data_manifest.json`), using a collision-free 5-part run id:
+
+```
+{algo}_{world}_{reward_mode}_{drift}_{seed}
+```
+
+where `drift` is `drifts` (`no_drifts=False`) or `nodrifts`
+(`no_drifts=True`). See `VERIFICATION.md` for the full rebuild process, the
+verified result tables, and the old-vs-verified plot-number comparison.
+
+### Zip-stem -> canonical-run-id mapping
+
+| Raw Colab zip stem(s) | algo | world | reward_mode | drift |
+|---|---|---|---|---|
+| `a2c_seed{42,43,44}` | a2c | hard | multi_objective | drifts |
+| `dqn_seed{42,43,44}` | dqn | hard | multi_objective | drifts |
+| `ppo_seed{42,43,44}` | ppo | hard | multi_objective | drifts |
+| `dqn_biomass_seed{42,43,44}` | dqn | hard | biomass_only | drifts |
+| `dqn_efficiency_seed{42,43,44}` | dqn | hard | efficiency | drifts |
+| `dqn_sustainability_seed{42,43,44}` | dqn | hard | sustainability | drifts |
+| `dqn_turbidity_seed{42,43,44}` | dqn | hard | turbidity | drifts |
+| `dqn_turbdelta_seed{42,43,44}` | dqn | hard | turbidity_delta | drifts |
+| `dqn_easy_drifts_seed{42,43,44}` | dqn | easy | multi_objective | drifts |
+| `dqn_easy_nodrifts_seed{42,43,44}` | dqn | easy | multi_objective | nodrifts |
+| `dqn_medium_drifts_seed{42,43,44}` | dqn | medium | multi_objective | drifts |
+| `dqn_medium_nodrifts_seed{42,43,44}` | dqn | medium | multi_objective | nodrifts |
+| `dqn_hard_nodrifts_seed{42,43,44}` | dqn | hard | multi_objective | nodrifts |
+
+Phase 3's "hard, with drifts" condition is the Phase 1 DQN run (referenced
+by listing from `results_verified/phase3/_REFERENCED_FROM_PHASE1.txt`, not
+duplicated). 9 (Phase 1) + 15 (Phase 2) + 15 (Phase 3) = **39 unique
+models**, each under `results_verified/phase{1,2,3}/<run_id>/` with
+`config.txt`, `model.zip`, `learning_curve.csv`, `training_time.txt`,
+`eval.csv`, `eval_summary.csv`, `coverage_trajectory.csv`. Full provenance
+(which file came from which zip, original-vs-regenerated) is in
+`results_verified/PROVENANCE.csv`.
+
+### Regenerating results_verified/ and the figures
+
+```
+venv\Scripts\python.exe scripts\build_data_manifest.py check   # verify raw zips untouched
+venv\Scripts\python.exe scripts\build_results_verified.py      # rebuild results_verified/ from the raw zips
+venv\Scripts\python.exe scripts\reevaluate_all.py               # re-run evaluation for all 39 models
+venv\Scripts\python.exe scripts\run_baselines_verified.py       # fixed-setpoint + random baselines
+venv\Scripts\python.exe scripts\build_eval_summary_all.py       # aggregate per-run eval.csv -> summary tables
+venv\Scripts\python.exe scripts\ppo_a2c_diagnostic.py           # deterministic vs stochastic diagnostic
+python generate_plots.py                                        # figures -> plots_verified/ (reads results_verified/ only)
+```
 
 ## Folder structure
 
@@ -53,21 +112,58 @@ training/
                             *_coverage_trajectory.csv to results/.
 
 results/                    129 CSVs (+ training-time .txt files) from the
-                            internship's training/evaluation runs. Read-only.
-trained_models/             Saved SB3 models + config.txt. Read-only.
-plots/                      Generated paper figures. Read-only.
-generate_plots.py           Builds Figures 1-7 from results/ CSVs. NOTE:
-                            Figures 2, 3, 5 and 6 currently use hardcoded
-                            numbers rather than reading results/ directly —
-                            see AUDIT.md Step 2f for a full hardcoded-vs-
-                            recomputed comparison table.
+                            internship's training/evaluation runs.
+                            UNVERIFIED/superseded — see
+                            results/README_LEGACY.txt. Kept, unmodified,
+                            for history.
+results_verified/           The trustworthy, provenance-tracked dataset,
+                            rebuilt from the raw "Colab training results/"
+                            downloads. See "Which results are trustworthy?"
+                            above and VERIFICATION.md.
+Colab training results/     Raw Colab zip downloads. READ-ONLY, never
+                            committed (gitignored) — integrity tracked via
+                            data_manifest.json (SHA-256 of every file).
+trained_models/             Saved SB3 models + config.txt from results/'s
+                            era. Read-only, unverified (see results/).
+plots/                      Figures generated from the unverified results/.
+                            Read-only, kept for history.
+plots_verified/             Figures generated from results_verified/ only —
+                            the trustworthy figures. See generate_plots.py.
+generate_plots.py           Builds Figures 1-7 entirely from
+                            results_verified/ CSVs (no hardcoded numbers).
+                            Writes to plots_verified/. Also writes
+                            results_verified/PLOT_NUMBERS_OLD_VS_VERIFIED.csv,
+                            comparing every number this script used to
+                            hardcode against the verified value.
 
 scripts/
-  recompute_plot_numbers.py Read-only audit tool: recomputes the Figure
-                            2/3/5/6 numbers from results/ CSVs (and, for the
-                            two untrained baselines, by re-running them
-                            fresh) so they can be checked against the
-                            hardcoded values in generate_plots.py.
+  build_data_manifest.py    SHA-256 manifest of every raw Colab file
+                            ("check" or "write" mode).
+  build_results_verified.py Rebuilds results_verified/phase{1,2,3}/ from the
+                            raw Colab zips per the mapping table above.
+  reevaluate_all.py         Re-evaluates all 39 models using evaluate.py's
+                            own protocol; fills in missing/ambiguous eval
+                            sets, cross-checks existing ones.
+  run_baselines_verified.py Fixed-setpoint + random baselines for Phase 1
+                            and all 6 Phase 3 world x drift combinations.
+  build_eval_summary_all.py Aggregates every run's eval.csv into
+                            results_verified/EVAL_SUMMARY_PER_RUN.csv and
+                            EVAL_SUMMARY_ALL.csv (grouped by
+                            algo/world/reward_mode/drift, averaged over
+                            seeds).
+  ppo_a2c_diagnostic.py     Evaluates every PPO/A2C (and DQN, for
+                            comparison) model under both
+                            deterministic=True and deterministic=False.
+  run_naming.py             Parses/builds both the old 4-part and new
+                            5-part run-name conventions.
+  prove_naming_equivalence.py
+                            Proves the new 5-part naming changes only the
+                            output file name, not training behaviour.
+  recompute_plot_numbers.py Original (pre-results_verified) audit tool:
+                            recomputes the old Figure 2/3/5/6 numbers from
+                            results/ CSVs. Superseded by
+                            generate_plots.py's own comparison table, kept
+                            for history.
 
 tests/
   snapshot_baseline.py      Freezes a behavioural snapshot of the frozen
@@ -86,9 +182,18 @@ tests/
                             bounds, and full-episode runs for every reward
                             mode x world preset x drift condition.
 
-AUDIT.md                    Full audit report: findings, severity, fixed vs
-                            report-only, and proposed (unimplemented) v3
-                            changes.
+AUDIT.md                    Full audit report (on the old results/ data):
+                            findings, severity, fixed vs report-only, and
+                            proposed (unimplemented) v3 changes.
+VERIFICATION.md             The verified-data rebuild: raw-data integrity,
+                            completeness, reproduction-of-headline-numbers,
+                            test results, and the old-vs-verified plot
+                            table. Read this, not AUDIT.md, for the
+                            trustworthy numbers.
+data_manifest.json          SHA-256 + size of every file under
+                            "Colab training results/", recorded before any
+                            edit. Re-check anytime with
+                            `scripts/build_data_manifest.py check`.
 requirements.txt            Exact pinned versions for running training/
                             evaluation/plotting.
 requirements-dev.txt        Adds pytest, needed only to run tests/.
@@ -147,9 +252,11 @@ python training/evaluate.py --model_path trained_models/dqn_hard_multi_objective
 ```
 `--seed` here is only the *training* seed, used to name the output files —
 evaluation itself always uses seeds 100-119. Pass `--no_drifts` if the model
-was trained with it, so evaluation uses the matching environment.
+was trained with it, so evaluation uses the matching environment. Pass
+`--new_naming` to use the collision-free 5-part output name (below).
 
-**Plots** (from project root, reads results/, writes plots/):
+**Plots** (from project root, reads **results_verified/**, writes
+**plots_verified/**):
 ```
 python generate_plots.py
 ```
@@ -162,9 +269,18 @@ python -m pytest tests/test_env_properties.py -q
 
 ## Reproducibility note
 
-Run names follow `{algo}_{world}_{reward_mode}_{seed}`; CSVs follow
-`{run_name}_{type}.csv`. This naming does **not** encode the drift
-condition (`no_drifts`), so a with-drifts and a no-drifts run of the same
-algo/world/reward_mode/seed would silently overwrite each other's results —
-see AUDIT.md for where this already limits what Phase 3's no-drift figures
-can be verified against.
+For any run done **before** this verification pass (everything in
+`results/` / `trained_models/`), run names follow
+`{algo}_{world}_{reward_mode}_{seed}`, with no drift-condition component —
+a with-drifts and a no-drifts run of the same algo/world/reward_mode/seed
+silently overwrote each other's results. See AUDIT.md finding #12 and
+`results/README_LEGACY.txt`.
+
+For any **future** run, `train_dqn.py` / `train_ppo.py` / `train_a2c.py` /
+`evaluate.py` accept an opt-in `--new_naming` flag that instead builds the
+collision-free 5-part name used throughout `results_verified/`:
+`{algo}_{world}_{reward_mode}_{drift}_{seed}`, where `drift` is `drifts` or
+`nodrifts`. The flag changes **only** the output file/folder name — see
+`scripts/prove_naming_equivalence.py`, which trains the same config with
+and without it and diffs the resulting learning curves byte-for-byte.
+`scripts/run_naming.py` parses both the old 4-part and new 5-part names.
