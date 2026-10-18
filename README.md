@@ -136,7 +136,7 @@ archive/
   MOVES.csv                  Record of what was archived and why.
 
 docs/
-  AUDIT.md                  The original audit report (on the old
+  AUDIT.md                   The original audit report (on the old
                             results/ data): findings, severity, fixed
                             versus report-only items, and proposed
                             (unimplemented) v3 changes.
@@ -145,6 +145,12 @@ docs/
                             of headline numbers, test results, and the
                             old-versus-verified plot table. Read this, not
                             AUDIT.md, for the trustworthy numbers.
+  01_rl_education.docx       Corrected final-year-project write-ups
+  02_literature_review.docx  (unmodified copies). See "Project documents"
+  03_experimental_design.docx below for the full list and their sources.
+  04_phase1_report.docx
+  05_phase2_report.docx
+  06_phase3_report.docx
 
 scripts/
   build_data_manifest.py    SHA-256 manifest of every raw Colab file
@@ -343,6 +349,26 @@ evaluation episodes = 60 episodes per row; full detail and provenance in
   the originally stored results (under 0.5 percent of mean reward in every
   case). Both versions are kept side by side rather than one overwriting
   the other; see `results_verified/REEVALUATION_REPORT.csv`.
+
+## Project documents
+
+The corrected write-ups for the final-year project, copied into `docs/`
+unmodified from the source files below:
+
+| docs/ file | Source file |
+|---|---|
+| `01_rl_education.docx` | `RL_Education.docx` |
+| `02_literature_review.docx` | `Literature_review.docx` |
+| `03_experimental_design.docx` | `Experimental_design_plan.docx` |
+| `04_phase1_report.docx` | `Phase1_report.docx` |
+| `05_phase2_report.docx` | `Phase2_report.docx` |
+| `06_phase3_report.docx` | `Phase3_report.docx` |
+
+The source files came from a folder outside this project (the parent
+"Summer" directory), standing in for a `docs_incoming/` folder that was
+asked for but did not exist anywhere under that directory; the folder
+itself is kept for provenance at `archive/Documents Final/`. No
+`CHANGELOG.md` was found anywhere under "Summer" to copy alongside them.
 
 ## Further reading
 

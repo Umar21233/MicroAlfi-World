@@ -1,3 +1,4 @@
 from,to,reason
 plots/,archive/plots/,Not read by any script in training/ scripts/ tests/ or generate_plots.py (only mentioned in a comment in scripts/recompute_plot_numbers.py); superseded by plots_verified/
 trained_models/,archive/trained_models/,"Contained only 3 old _999 smoke-test model dirs, not read by any script (only appears as CLI-example text in docstrings/help strings); real verified models live under results_verified/phase{1,2,3}/"
+../Documents Final/ (outside project, parent "Summer" folder),archive/Documents Final/,"Source of the 6 corrected .docx reports copied into docs/ as 01_rl_education.docx .. 06_phase3_report.docx (stood in for a docs_incoming/ folder that was asked for but did not exist anywhere under Summer); kept for provenance, no CHANGELOG.md was found anywhere to copy alongside them"
