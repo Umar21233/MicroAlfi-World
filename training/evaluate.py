@@ -92,6 +92,7 @@ def run_evaluation(model, env, n_episodes: int, seed_start: int, deterministic: 
             "type_b_fraction": round(float(obs[11]), 4),
             "mean_toxin":      round(float(obs[10]), 4),
             "steps":           env.step_count,
+            "action_cost":     round(float(env.total_action_cost), 4),
         }
         for a in range(n_actions):
             row[f"action_{a}_count"] = int(action_counts[a])

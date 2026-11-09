@@ -11,6 +11,9 @@ always be traced back to exactly what produced them:
   - wall-clock training time in results/dqn_{world}_{reward_mode}_{seed}_training_time.txt
   - a learning curve (mean reward every 10000 timesteps) in
     results/dqn_{world}_{reward_mode}_{seed}_learning_curve.csv
+  - optionally (with --eval_curve), a held-out evaluation curve (seeds
+    100-119, deterministic, every --eval_freq timesteps) in
+    results/dqn_{world}_{reward_mode}_{seed}_eval_curve.csv
 
 Usage (from project root):
     python training/train_dqn.py
@@ -29,12 +32,13 @@ sys.path.insert(0, PROJECT_ROOT)
 
 import numpy as np
 from stable_baselines3 import DQN
-from stable_baselines3.common.callbacks import BaseCallback
+from stable_baselines3.common.callbacks import BaseCallback, CallbackList
 
 from envs.alphae_world_env_v2 import AlphaeWorldEnvV2
 from agents.random_agent_v2 import WORLD_PRESETS
 from scripts.run_naming import build_run_name
 from training.hyperparameters import TUNED
+from training.eval_callback import PeriodicEvalCallback
 
 ALGO_NAME = "dqn"
 LOG_FREQ  = 10_000   # timesteps between learning-curve log points
@@ -103,6 +107,14 @@ def main():
                              "the Colab-trained models (training/hyperparameters.py) "
                              "instead of this script's own CLI defaults. "
                              "Default: off, so existing behaviour is unchanged.")
+    parser.add_argument("--eval_curve", action="store_true",
+                        help="Also run a periodic held-out evaluation (seeds "
+                             "100-119, deterministic) every --eval_freq timesteps "
+                             "and log it to results/{run_name}_eval_curve.csv. "
+                             "Default: off, so existing outputs are unchanged.")
+    parser.add_argument("--eval_freq", type=int, default=10_000,
+                        help="Timesteps between periodic evaluations when "
+                             "--eval_curve is set. Ignored otherwise.")
     args = parser.parse_args()
 
     if args.tuned:
@@ -136,6 +148,22 @@ def main():
         verbose=1,
     )
 
+    if args.eval_curve:
+        # separate eval env, same preset/reward_mode/no_drifts as training,
+        # so eval steps never count toward total training timesteps
+        eval_env = AlphaeWorldEnvV2(
+            world_config=WORLD_PRESETS[args.world],
+            reward_mode=args.reward_mode,
+            no_drifts=args.no_drifts,
+        )
+        eval_callback = PeriodicEvalCallback(
+            eval_freq=args.eval_freq,
+            eval_env=eval_env,
+            csv_path=os.path.join(results_dir, f"{run_name}_eval_curve.csv"),
+            verbose=1,
+        )
+        callback = CallbackList([callback, eval_callback])
+
     print(f"\n{'='*65}")
     print(f"  Training DQN  |  world={args.world}  reward={args.reward_mode}  "
           f"seed={args.seed}  timesteps={args.timesteps}  no_drifts={args.no_drifts}")
@@ -165,6 +193,8 @@ def main():
     print(f"  Model saved to:   {model_dir}")
     print(f"  Config saved to:  {os.path.join(model_dir, 'config.txt')}")
     print(f"  Learning curve:   results/{run_name}_learning_curve.csv")
+    if args.eval_curve:
+        print(f"  Eval curve:       results/{run_name}_eval_curve.csv")
     print(f"{'='*65}\n")
 
 
